@@ -134,11 +134,32 @@ body{
     }
 }
 /*Header Dx*/
+.header-dx{
+    height: 10%;
+    width: 100%;
+    background-color: var(--lightgrey);
+    /*DEBUG*/
+    border: 2px solid black;
+}
 /*/Header Dx*/
 
 /*Main Dx*/
+.main-dx{
+    height: 80%;
+    width: 100%;
+    background-image: url(../img/mine.jpg);
+    /*DEBUG*/
+    border: 2px solid black;
+}
 /*/Main Dx*/
 
 /*Footer Dx*/
+.footer-dx{
+    height: 10%;
+    width: 100%;
+    background-color: var(--textbar);
+    /*DEBUG*/
+    border: 2px solid black;
+}
 /*/Footer Dx*/
 /*/COLONNA DESTRA*/
