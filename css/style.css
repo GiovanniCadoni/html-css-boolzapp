@@ -1,5 +1,7 @@
 :root{
     --lightgreen: #d5f9ba;
+    --darkgreen: #009688;
+    --greybackground: #d9dbd6;
     --lightblue: #8edafc;
     --lightgrey: #eaeaea;
     --grey: #b1b1b1;
@@ -23,25 +25,114 @@ body{
 
 
 /*COMMON*/
+.container-background{
+    background-color: var(--darkgreen);
+    height: 100vh;
+    width: 100%;
+    padding-top: 5vh;
+}
+
+.container-web-app{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    height: 90vh;
+}
+
+@media screen and (max-width:768px){
+    .container-background{
+        padding-top: 0;
+    }
+    .container-web-app{
+        width: 100%;
+        height: 100vh;
+    }
+}
 /*/COMMON*/
 
 
 /*COLONNA SINISTRA*/
+.column-sx{
+    height: 100%;
+    width: 35%;
+    /*DEBUG*/
+    background-color: burlywood;
+    border: 3px solid red;
+}
+
+@media screen and (max-width:768px){
+    .column-sx{
+        width: 15%;
+    }
+}
+
+@media screen and (max-width:426px){
+    .column-sx{
+        display: none;
+    }
+}
 /*Header Sx*/
+.header-sx{
+    height: 10%;
+    width: 100%;
+    background-color: var(--lightgrey);
+    /*DEBUG*/
+    border: 2px solid black;
+}
 /*/Header Sx*/
 
 /*Hero Sx*/
+.hero-sx{
+    height: 10%;
+    width: 100%;
+    background-color: var(--lightblue);
+    /*DEBUG*/
+    border: 2px solid black;
+}
 /*/Hero Sx*/
 
 /*Navigation Sx*/
+.navigation-sx{
+    height: 10%;
+    width: 100%;
+    background-color: #fafafa;
+    /*DEBUG*/
+    border: 2px solid black;
+}
 /*/Navigation Sx*/
 
 /*Main Sx*/
+.main-sx{
+    height: 70%;
+    width: 100%;
+    background-color: white;
+    /*DEBUG*/
+    border: 2px solid black;
+}
 /*/Main Sx*/
 /*/COLONNA SINISTRA*/
 
 
 /*COLONNA DESTRA*/
+.column-dx{
+    height: 100%;
+    width: 65%;
+    /*DEBUG*/
+    background-color:chocolate;
+    border: 3px solid red;
+}
+
+@media screen and (max-width:768px){
+    .column-dx{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width:426px){
+    .column-dx{
+        width: 100%;
+    }
+}
 /*Header Dx*/
 /*/Header Dx*/
 
