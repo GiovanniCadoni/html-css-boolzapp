@@ -1,0 +1,53 @@
+:root{
+    --lightgreen: #d5f9ba;
+    --lightblue: #8edafc;
+    --lightgrey: #eaeaea;
+    --grey: #b1b1b1;
+    --darkgrey: #6b7376;
+    --textbar: #f3eeea;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+/*COMMON*/
+/*/COMMON*/
+
+
+/*COLONNA SINISTRA*/
+/*Header Sx*/
+/*/Header Sx*/
+
+/*Hero Sx*/
+/*/Hero Sx*/
+
+/*Navigation Sx*/
+/*/Navigation Sx*/
+
+/*Main Sx*/
+/*/Main Sx*/
+/*/COLONNA SINISTRA*/
+
+
+/*COLONNA DESTRA*/
+/*Header Dx*/
+/*/Header Dx*/
+
+/*Main Dx*/
+/*/Main Dx*/
+
+/*Footer Dx*/
+/*/Footer Dx*/
+/*/COLONNA DESTRA*/
