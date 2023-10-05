@@ -39,12 +39,7 @@ body{
     height: 90vh;
 }
 
-button{
-    background-color: transparent;
-    border: transparent;
-}
-
-button:hover{
+.action:hover{
     cursor: pointer;
 }
 
@@ -106,10 +101,8 @@ button:hover{
 
 .options-header-sx{
     display: flex;
-    gap: 1rem;
-}
-
-.options-header-sx button{
+    align-items: center;
+    gap: 1.3rem;
     font-size: 1.8rem;
     color: var(--grey);
 }
@@ -145,7 +138,6 @@ button:hover{
     background-color: var(--lightblue);
     display: flex;
     align-items: center;
-    gap: 1.5rem;
     padding: 0 20px;
     /*DEBUG*/
     border: 2px solid black;
@@ -167,8 +159,7 @@ button:hover{
     display: flex;
     flex-direction: column;
     gap: 0.2rem;
-    position: relative;
-    right: 2px;
+    margin-left: 20px;
 }
 
 .text-hero-sx{
@@ -242,7 +233,6 @@ button:hover{
     height: 100px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
     padding: 0 20px;
     /*DEBUG*/
@@ -263,9 +253,9 @@ button:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 0.5rem;
-    position: relative;
-    right: 15px;
+    gap: 0.3rem;
+    margin-left: 15px;
+    margin-right: 38px;
 }
 
 .name-chat{
