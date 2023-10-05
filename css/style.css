@@ -363,8 +363,42 @@ body{
     height: 100px;
     width: 100%;
     background-color: var(--textbar);
+    display: flex;
+    align-items: center;
     /*DEBUG*/
     border: 2px solid black;
+}
+
+.emoticon-dx{
+    font-size: 2.2rem;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    color: var(--darkgrey);
+}
+
+.text-dx{
+    width: 80%;
+    height: 60px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.text-dx input{
+    border: transparent;
+    background-color: transparent;
+    font-size: 1.2rem;
+}
+
+.mic-dx{
+    font-size: 2.2rem;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    color: var(--darkgrey);
 }
 
 @media screen and (max-width:1000px){
