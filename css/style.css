@@ -194,6 +194,11 @@ body{
 .search-navigation-sx{
     width: 80%;
     border: transparent;
+    padding: 5px;
+}
+
+.search-navigation-sx:focus-visible{
+    outline: none;
 }
 
 .navigation-sx i{
@@ -428,6 +433,12 @@ body{
     border: transparent;
     background-color: transparent;
     font-size: 1.2rem;
+    padding: 5px;
+    width: 100%;
+}
+
+.text-dx input:focus-visible{
+    outline: none;
 }
 
 .mic-dx{
